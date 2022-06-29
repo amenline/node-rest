@@ -1,0 +1,15 @@
+{
+    "target": "es2018",
+    "extends": "@tsconfig/node16/tsconfig.json",
+    "strict": "true",
+    "forceConsistentCasingInFileNames": "true",
+    "compilerOptions": {
+        "outDir": "dist"
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

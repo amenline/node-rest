@@ -1,0 +1,18 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "Debug server.ts",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "runtimeArgs": [
+                "-r",
+                "ts-node/register"
+            ],
+            "args": [
+                "${workspaceRoot}/src/server.ts"
+            ]
+        }
+    ]
+}
